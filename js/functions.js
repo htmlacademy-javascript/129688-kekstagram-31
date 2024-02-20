@@ -1,13 +1,9 @@
 //Функция для проверки длины строки
-function getStirngLength(myString, maxLength) {
+function countLength(myString, maxLength) {
   //если строка меньше или равна указанной длине
-  if(myString.length <= maxLength){
-    return true;
-  }else{
-    return false;
-  }
+  return myString.length <= maxLength;
 }
-getStirngLength('десять сим', 10);
+countLength('десять сим', 10);
 
 //Функция для проверки, является ли строка палиндромом
 function isPalidrome(myString){
@@ -20,6 +16,4 @@ function isPalidrome(myString){
   return emptyString === newString;
 }
 
-console.log(isPalidrome('БУбуб'));
-
-console.log('Энта конец');
+isPalidrome('БУбуб');
