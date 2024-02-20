@@ -20,4 +20,6 @@ function isPalidrome(myString){
   return emptyString === newString;
 }
 
-isPalidrome('БУбуб');
+console.log(isPalidrome('БУбуб'));
+
+console.log('Энта конец');
