@@ -89,5 +89,6 @@ const createPhoto = () => ({
   comments: Array.from({ length: getRandomInteger(MIN_COMMENTS_AMMOUNT, MAX_COMMENTS_AMMOUNT)}, createComment)
 });
 
-const finalArray = Array.from({length: 4}, createPhoto);
-{finalArray();}
+const finalArray = Array.from({length: 25}, createPhoto);
+finalArray.values();
+
