@@ -1,4 +1,5 @@
 import {getRandomInteger, createIdGenerator} from './utils.js';
+import{COMMENTES, COMMENT_NAMES} from './data.js';
 const MIN_LIKES_AMOUNT = 15;
 const MAX_LIKES_AMOUNT = 200;
 
@@ -27,5 +28,5 @@ const createPhoto = () => ({
 });
 
 const finalArray = Array.from({length: 25}, createPhoto);
-finalArray.values();
+//finalArray.values();
 export {finalArray};
